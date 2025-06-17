@@ -24,6 +24,7 @@
 .Weather ul {
   padding-left: 10px;
   color: rgb(76, 76, 76);
+  margin: 0;
 }
 
 .Weather li {
@@ -39,7 +40,8 @@
 
 .Weather .iconToday {
   position: relative;
-  bottom: 20px;
+  top: 20px;
+  width: 60px;
 }
 
 .Weather .temperatureToday {
@@ -52,4 +54,9 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+.Weather .temperatureBox {
+  display: flex;
+  justify-content: flex-start;
 }
