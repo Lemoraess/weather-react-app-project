@@ -8,18 +8,15 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function getResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       city: response.data.city,
       temperature: response.data.temperature["current"],
       description: response.data.condition["description"],
-      huminity: response.data.temperature["humidity"],
+      humidity: response.data.temperature["humidity"],
       wind: response.data.wind["speed"],
       date: new Date(response.data.time * 1000),
-      /*icon: response.data.condition[
-        `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${icon}.png`
-      ],*/
+      icon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition[2]}.png`,
     });
   }
 
