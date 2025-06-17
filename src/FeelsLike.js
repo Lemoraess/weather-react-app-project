@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function FeelsLike(props) {
   let fahreinheit = (props.celsius * 9) / 5 + 32;
