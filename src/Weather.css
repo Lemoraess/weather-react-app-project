@@ -38,10 +38,8 @@
   border: 1px solid rgb(79, 47, 47);
 }
 
-.Weather .iconToday {
-  position: relative;
-  top: 20px;
-  width: 60px;
+.Weather canvas {
+  margin: 10px auto;
 }
 
 .Weather .temperatureToday {
@@ -59,4 +57,13 @@
 .Weather .temperatureBox {
   display: flex;
   justify-content: flex-start;
+}
+
+.Weather .float-left {
+  position: relative;
+  top: 20px;
+}
+
+.Weather .iconToday {
+  width: 65px;
 }
