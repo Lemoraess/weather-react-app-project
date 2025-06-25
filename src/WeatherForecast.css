@@ -1,5 +1,10 @@
 .WeatherForecast {
   text-align: center;
+  margin-top: 15px;
+}
+
+.WeatherForecast-day {
+  margin-top: 15px;
 }
 
 .WeatherForecast-temp-min {

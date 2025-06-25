@@ -67,3 +67,10 @@
 .Weather .iconToday {
   width: 65px;
 }
+
+@media (max-width: 600px) {
+  .Weather h1 {
+    padding: 10px;
+    font-size: 40px;
+  }
+}
