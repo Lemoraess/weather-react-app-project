@@ -73,4 +73,12 @@
     padding: 10px;
     font-size: 40px;
   }
+
+  .Weather .buttonSearch {
+    font-size: 14;
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
